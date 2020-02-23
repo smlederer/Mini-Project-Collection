@@ -13,16 +13,19 @@ y = permutations(n = 2,r=8,v=x,repeats.allowed=T)
 y_u= unique(y)
 
 #Creep rounds, don't effect lose streaks
-#StreakGoldFrame
 
+#StreakGoldFrame to be used to look up streak
 StreakGold = data.frame(Streak = c(seq(1,8),seq(1,10)),
                         W_L = c("W","W","W","W","W","W","W","W","L","L",
                                 "L","L","L","L","L","L","L","L"),
                         value = c(0,0,1,1,2,2,3,4,0,0,1,1,2,2,2,2,2,2))
 
 
+
 StreakGoldSum = function(vector){
+  #determine if a streak occured:
   Str = sequence(rle(as.character(vector))$lengths)
+  
   WL = vector
   StreakGoldAmount = 0
   for (i in seq(1,length(vector))){
