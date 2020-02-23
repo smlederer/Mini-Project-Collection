@@ -1,4 +1,4 @@
-# Monte Carlo Non-Standard Dice Simulation
+# Dice Simulator with Custom Dice
 
 Using Monte Carlo simulations, find the distributions of non-standard dice. 
 
