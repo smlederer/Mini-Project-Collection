@@ -1,7 +1,7 @@
 # Loop Hero River Placement Simulation
 Created March 2021
 
-(Loop Hero)[https://store.steampowered.com/app/1282730/Loop_Hero/] is a game where placing buildings and scenery affects battle and stats of your character. Placement is important and leads to optimizations made while playing the game. One optimization revolves around the River tile that gives all adjacent tiles 2x value and can stack with other Rivers that are adjacent to the same tile.
+[Loop Hero](https://store.steampowered.com/app/1282730/Loop_Hero/) is a game where placing buildings and scenery affects battle and stats of your character. Placement is important and leads to optimizations made while playing the game. One optimization revolves around the River tile that gives all adjacent tiles 2x value and can stack with other Rivers that are adjacent to the same tile.
 
 Some behaviors of rivers are as follows:
 * Only have a degree of 2 (in and out, can't fork).
